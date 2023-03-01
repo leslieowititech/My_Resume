@@ -1,0 +1,22 @@
+.experience-card {
+  border-radius: 2em;
+  box-shadow: 1em .1em 1em grey;
+  padding: 1em;
+  margin: .5em;
+}
+.company-title-and-dates {
+  display: grid;
+  grid-template-columns: repeat(5 1fr);
+}
+
+.company-title {
+  grid-column-start: 1;
+}
+.start-date {
+  grid-column-start: 3;
+  justify-self: end;
+}
+.end-date {
+  grid-column-start: 4;
+  justify-self: start;
+}
