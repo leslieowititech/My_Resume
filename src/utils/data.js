@@ -1,6 +1,27 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.data = void 0;
+exports.data = exports.skills = void 0;
+exports.skills = [
+    "JavaScript",
+    "React.js",
+    "React Native",
+    "Redux.js",
+    "Python",
+    "HTML5",
+    "CSS3",
+    "Git",
+    "PostgreSQL",
+    "Flask",
+    "Sequelize",
+    "Jinja",
+    "APIs",
+    "Docker",
+    "TypeScript",
+    "GraphQl",
+    "Nextjs",
+    "Solidity",
+    "Smart Contracts",
+];
 exports.data = {
     coinbaseData: {
         companyName: "Coinbase",
@@ -29,14 +50,18 @@ exports.data = {
     },
     varsityTutorsData: {
         companyName: "Varsity Tutors",
-        startDate: "2021",
-        endDate: "2022",
+        startDate: "Sept 2021",
+        endDate: "",
         teams: [
             {
                 name: "Software Engineering Tutor",
                 bulletPoints: [
                     "Tutored students ranging from high school on programming languages such as Python, JavaScript and SQL Taught student on web development from scratch to a fully deployed website.",
                     "Helped students set up environments such as installing PostgreSQL with Postbird to help with database management, install python and setup pipenv, set up Node with WSL for Windows users and homebrew for Mac OS users.",
+                    "Assisted students write documentation for their projects such as a Wiki on their GitHub repository. Taught version control by explaining Git workflows.",
+                    "Taught full-stack development specifically the PERN stack i.e PostgreSql, Express.js, React.js, and Node.js.",
+                    "Taught Python specifically, the Flask framework to build out RestFul API’s. Taught SQL, specifically, how to create, modify and populate databases, as well as make simple and complex queries utilizing aliasing, JOIN statements and SELECT statements.",
+                    "Assisted students achieve beautiful websites by explaining CSS concepts as well as assisting the students to implement vanilla css utilizing flexbox and grid.",
                 ],
             },
         ],

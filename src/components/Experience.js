@@ -10,10 +10,10 @@ const Experience = ({ companyName, startDate, endDate, teams, }) => {
         react_1.default.createElement("section", { className: "company-title-and-dates" },
             react_1.default.createElement("h3", { className: "company-title" }, companyName),
             react_1.default.createElement("h3", { className: "start-date" }, startDate),
-            react_1.default.createElement("h3", { className: "end-date" }, endDate)),
+            react_1.default.createElement("h3", { className: "end-date" }, endDate ? endDate : "Current")),
         teams.map((team, index) => (react_1.default.createElement("div", { key: index },
             react_1.default.createElement("h4", null, team.name),
-            team.bulletPoints.map((item) => (react_1.default.createElement("ul", null,
+            team.bulletPoints.map((item, index) => (react_1.default.createElement("ul", { key: index },
                 react_1.default.createElement("li", null, item)))))))));
 };
 exports.default = Experience;

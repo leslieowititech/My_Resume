@@ -24,11 +24,18 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
 const Experience_1 = __importDefault(require("./Experience"));
+const data_1 = require("../utils/data");
+require("./resume.css");
 const Resume = ({ experiences }) => {
     const [jobExperiences, setJobExperiences] = (0, react_1.useState)([]);
     (0, react_1.useEffect)(() => {
         setJobExperiences(experiences);
     }, [experiences]);
-    return (react_1.default.createElement("div", null, jobExperiences.map((data, index) => (react_1.default.createElement(Experience_1.default, { companyName: data.companyName, startDate: data.startDate, endDate: data.startDate, teams: data.teams, key: index })))));
+    return (react_1.default.createElement("div", { className: "resume-container" },
+        react_1.default.createElement("h1", null, "PROFESSIONAL SKILLS"),
+        react_1.default.createElement("section", { className: "resume-section" },
+            react_1.default.createElement("ul", { className: "skills-list" }, data_1.skills.map((skill, index) => (react_1.default.createElement("li", { key: index, className: `skill-item` }, skill))))),
+        react_1.default.createElement("h1", null, "WORK EXPERIENCE"),
+        react_1.default.createElement("section", { className: "resume-section" }, jobExperiences.map((data, index) => (react_1.default.createElement(Experience_1.default, { companyName: data.companyName, startDate: data.startDate, endDate: data.endDate, teams: data.teams, key: index }))))));
 };
 exports.default = Resume;

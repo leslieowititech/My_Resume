@@ -1,8 +1,13 @@
 .experience-card {
   border-radius: 2em;
-  box-shadow: 1em .1em 1em grey;
+  box-shadow: 0.1em 0.4em 1em grey;
   padding: 1em;
-  margin: .5em;
+  margin: 0.8em;
+
+  transition: transform 500ms ease;
+}
+.experience-card:hover {
+  transform: scale(1.02);
 }
 .company-title-and-dates {
   display: grid;

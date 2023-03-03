@@ -1,0 +1,30 @@
+.resume-container {
+  padding: 3em;
+  border: 0.8em solid rgb(23, 100, 178);
+}
+
+.resume-section {
+  border-top: 0.4em solid rgb(23, 100, 178);
+}
+.skills-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1em;
+  justify-items: center;
+}
+
+.skill-item {
+  width: 13em;
+  border-radius: 0.3em;
+
+  transition: transform 500ms ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.02);
+  font-weight: bold;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
