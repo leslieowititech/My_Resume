@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.data = exports.skills = void 0;
+exports.data = exports.profesionalSummary = exports.skills = void 0;
 exports.skills = [
     "JavaScript",
     "React.js",
@@ -22,6 +22,11 @@ exports.skills = [
     "Solidity",
     "Smart Contracts",
 ];
+exports.profesionalSummary = `Dedicated and efficient full stack developer with 3+ years’ experience in application layers, presentation layers, and databases. Adept at
+designing, developing, and implementing applications and solutions using a range of technologies and programming languages. Skilled with a
+variety of programming languages and frameworks, including: HTML, CSS, JavaScript, React, Redux.js, Python, and PostgreSQL. I am
+comfortable working with both relational and non-relational databases. I am also experienced in managing server infrastructure and
+deployments.`;
 exports.data = {
     coinbaseData: {
         companyName: "Coinbase",

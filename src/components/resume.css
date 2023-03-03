@@ -1,6 +1,7 @@
 .resume-container {
   padding: 3em;
   border: 0.8em solid rgb(23, 100, 178);
+  max-width: 1920px;
 }
 
 .resume-section {
@@ -27,4 +28,13 @@
   -moz-transition: all 0.25s;
   -o-transition: all 0.25s;
   transition: all 0.25s;
+}
+
+@media screen and (max-width: 480px){
+   .skill-item{
+    width: 7em;
+    list-style: none;
+    font-size: small;
+    background: rgba(50, 50, 60, 0.226);
+   } 
 }

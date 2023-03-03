@@ -1,5 +1,5 @@
 import React from "react";
-import { ExperienceProps } from "../utils/types";
+import { ExperienceProps } from "../../utils/types";
 import "./experience.css";
 
 const Experience = ({

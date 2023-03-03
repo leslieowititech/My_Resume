@@ -26,6 +26,12 @@ export const skills: string[] = [
   "Smart Contracts",
 ];
 
+export const profesionalSummary = `Dedicated and efficient full stack developer with 3+ years’ experience in application layers, presentation layers, and databases. Adept at
+designing, developing, and implementing applications and solutions using a range of technologies and programming languages. Skilled with a
+variety of programming languages and frameworks, including: HTML, CSS, JavaScript, React, Redux.js, Python, and PostgreSQL. I am
+comfortable working with both relational and non-relational databases. I am also experienced in managing server infrastructure and
+deployments.`;
+
 export const data: ResumeData = {
   coinbaseData: {
     companyName: "Coinbase",
