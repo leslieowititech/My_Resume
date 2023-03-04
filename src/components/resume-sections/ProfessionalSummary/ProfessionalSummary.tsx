@@ -1,6 +1,6 @@
 import React from "react";
 
-import { profesionalSummary } from "../../utils/data";
+import { profesionalSummary } from "../../../utils/data";
 
 const ProfesionalSummary = () => {
   return (

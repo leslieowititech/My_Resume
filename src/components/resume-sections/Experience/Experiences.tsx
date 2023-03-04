@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Experience from "./Experience";
 
-import { ExperienceProps } from "../../utils/types";
+import { ExperienceProps } from "../../../utils/types";
 
 interface EProps {
   experiences: ExperienceProps[];

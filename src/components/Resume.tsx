@@ -1,8 +1,9 @@
 import React from "react";
 
-import Experiences from "./resume-sections/Experiences";
-import Skills from "./resume-sections/Skills";
-import ProfesionalSummary from "./resume-sections/ProfessionalSummary";
+import Experiences from "./resume-sections/Experience/Experiences";
+import Skills from "./resume-sections/Skills/Skills";
+import ProfesionalSummary from "./resume-sections/ProfessionalSummary/ProfessionalSummary";
+import Header from "./resume-sections/Header/Header";
 
 import { data } from "../utils/data";
 import "./resume.css";
@@ -12,6 +13,7 @@ const Resume = () => {
 
   return (
     <div className="resume-container">
+      <Header/>
       <ProfesionalSummary />
       <Skills />
       <Experiences experiences={experiences} />
