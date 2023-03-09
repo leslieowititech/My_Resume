@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  resume-service:
+    build: .
+    volumes:
+      - .:/Users/leslieowiti/self-practice/resume
+    ports:
+      - 3000:3000
