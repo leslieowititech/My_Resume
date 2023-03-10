@@ -4,6 +4,23 @@ export type ResumeData = {
   varsityTutorsData: ExperienceProps;
 };
 
+export const education: {
+  institutionName: string;
+  details: string[];
+}[] = [
+  {
+    institutionName: "App Academy",
+    details: [
+      "Learned how to design and maintain SQL based databases",
+      "Learned how to build RESTful API's",
+    ],
+  },
+  {
+    institutionName: "Otis College of Art and Design",
+    details: ["Learned principles of design"],
+  },
+];
+
 export const skills: string[] = [
   "JavaScript",
   "React.js",

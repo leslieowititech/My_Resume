@@ -8,6 +8,7 @@ const Experiences_1 = __importDefault(require("./resume-sections/Experience/Expe
 const Skills_1 = __importDefault(require("./resume-sections/Skills/Skills"));
 const ProfessionalSummary_1 = __importDefault(require("./resume-sections/ProfessionalSummary/ProfessionalSummary"));
 const Header_1 = __importDefault(require("./resume-sections/Header/Header"));
+const Education_1 = __importDefault(require("./resume-sections/Education/Education"));
 const data_1 = require("../utils/data");
 require("./resume.css");
 const Resume = () => {
@@ -16,6 +17,7 @@ const Resume = () => {
         react_1.default.createElement(Header_1.default, null),
         react_1.default.createElement(ProfessionalSummary_1.default, null),
         react_1.default.createElement(Skills_1.default, null),
-        react_1.default.createElement(Experiences_1.default, { experiences: experiences })));
+        react_1.default.createElement(Experiences_1.default, { experiences: experiences }),
+        react_1.default.createElement(Education_1.default, null)));
 };
 exports.default = Resume;
